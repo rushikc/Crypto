@@ -20,10 +20,11 @@ driver.implicitly_wait(360000)
 
 driver.get("https://web.whatsapp.com/")
 wait = WebDriverWait(driver, 5000)
-time.sleep(10)
+
 
 def send(name, msg):
     ele = driver.find_element_by_class_name("_1Ek-U").click()
+    time.sleep(1)
 
     actions = ActionChains(driver)
     actions.send_keys(name)
@@ -34,7 +35,7 @@ def send(name, msg):
     actions = ActionChains(driver)
     actions.send_keys(msg + '\n')
     actions.perform()
-    time.sleep(1)
+    time.sleep(4)
 
 
 
@@ -45,10 +46,6 @@ def send(name, msg):
 # source = driver.page_source
 # src = bs4.BeautifulSoup(source, 'lxml')
 # k = src.select('button')
-
-
-
-time.sleep(100000)
 
 def stop():
     driver.close()
