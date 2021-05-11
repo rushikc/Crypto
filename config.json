@@ -1,0 +1,19 @@
+{
+    "key": "68642b7857db9a827291f948dfb377ce29f797925af4df02",
+    "secret": "cd3b3f9329256ae0a38f2422b269356d0343909995fc0d804ab3d8f02c2d3b86",
+    "url": "https://api.coindcx.com/exchange/v1/users/balances",
+
+    "TWILIO_ACCOUNT_SID": "ACb47e9d970250d83f9d304954f56f124a",
+    "TWILIO_AUTH_TOKEN": "759f918d7f73eb36e6da5c64c0517f15",
+
+    "firebase_url": "https://crypto-181c1-default-rtdb.firebaseio.com/",
+    "firebase" : {
+        "apiKey": "AIzaSyB_6OR0rAtv3xgCzQC45A0mjdzTW_KF2cw",
+        "authDomain": "hackathon-ab821.firebaseapp.com",
+        "databaseURL": "https://hackathon-ab821.firebaseio.com",
+        "projectId": "hackathon-ab821",
+        "storageBucket": "hackathon-ab821.appspot.com",
+        "messagingSenderId": "407886884054",
+        "appId": "1:407886884054:web:9b0c1709e25124bb"
+      }
+}
