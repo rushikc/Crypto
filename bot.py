@@ -1,3 +1,5 @@
+#Project initiated by Rushikesh
+#May-09-2021
 import os
 import time
 
@@ -6,9 +8,10 @@ import time
 import library as app
 # import whatsapp as msg
 import firebaseCloud as db
-#Project initiated by Rushikesh
-#May-09-2021
+import install as install
 
+
+install.update_chromedriver()
 
 def stop():
     # msg.stop()
